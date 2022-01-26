@@ -93,6 +93,23 @@ footer{
     background-color: #2C3E50;
 }
 
+footer.ms_footer-container.ms_copyright.col-3{
+    position: relative;
+}
+
+.btn_transform{
+    color: #1ABC9C;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+   transform: translateX(5px);
+    
+}
+.round{
+    border-radius: 50%;
+    border-color: white;
+
+}
 
 /* DEBUG */
 
