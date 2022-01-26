@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2C3E50;
+    color: white;
+}
+
+header .row{
+    min-height: 88px;
+}
+
+a{
+    color: white;
+}
+
+header .ms_height{
+    height: 88px;
+}
+
+main .ms_height{
+    height: 100%;
+}
+
+.ms_section-green{
+    background-color: #1ABC9C;
+}
+
+.ms_section-green:first-child{
+    height: 587px;
+}
+
+.ms_section-white:nth-child(2){
+    height: 854px;
+    background-color: white;
+}
+
+.ms_section-green:nth-child(3){
+    height: 490px;
+}
+
+.ms_section-white:nth-child(4){
+    height: 686px;
+    background-color: white;
+}
+
+/* FOOOTER */
+
+footer{
+    min-height: 342px;
+}
+
+.ms_freelancer-info{
+    height: 230px;
+    background-color: #3A546D;
+}
+
+.ms_copyright{
+    height: 112px;
+    background-color: #2C3E50;
+}
+
+
+/* DEBUG */
+
+.row{
+    border: 2px solid green;
+}
+
+div[class^="col"]{
+    border: 2px solid black;
+}
