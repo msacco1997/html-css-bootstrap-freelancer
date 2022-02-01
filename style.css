@@ -17,6 +17,10 @@ a{
     color: white;
 }
 
+img{
+    width: 100%;
+  }
+
 
 
 
@@ -110,6 +114,92 @@ footer.ms_footer-container.ms_copyright.col-3{
     border-color: white;
 
 }
+
+
+.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    display: none;
+  }
+  
+  .portfolio_card{
+    position: relative;
+    min-width: 260px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .portfolio_card:hover .fa-plus{
+    display: block;
+    z-index: 99999;
+  }
+  
+  .portfolio_card:hover::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(23, 188, 155, 0.7);
+  }
+  
+  #about{
+    max-width: 785px;
+  }
+  
+  .about_description{
+    column-count: 2;
+    column-gap: 1.5rem;
+  }
+  
+  #contact{
+    max-width: 785px;
+  }
+  
+  .social{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social a{
+    text-decoration: none;
+    color: currentColor;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  
+  .social a:hover{
+    text-shadow: 15px 20px 2px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #freelancer a{
+    text-decoration: none;
+    color: #1BBC9B;
+  }
+  
+  #freelancer a:hover{
+    text-decoration: underline;
+  }
+  
+  .form-control::placeholder, ::placeholder{
+    color: #140F0F;
+  }
+
+
+
+
+
+
+
+
 
 /* DEBUG */
 
